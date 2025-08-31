@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 1. **Clone code**
 
 ```bash
-git clone <đường-dẫn-repo-của-bạn>
+git clone https://github.com/HongVi711/CV-Filter.git
 
 Xóa thư mục migration trong thư mục prisma
 
