@@ -1,0 +1,234 @@
+2025-08-31 02:04:54 [ERROR]: Unhandled error during CV processing No number after minus sign in JSON at position 1 (line 1 column 2) {"stack":"SyntaxError: No number after minus sign in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parseJSONFromBytes (node:internal/deps/undici/undici:5489:19)\n    at successSteps (node:internal/deps/undici/undici:5470:27)\n    at fullyReadBody (node:internal/deps/undici/undici:4381:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async consumeBody (node:internal/deps/undici/undici:5479:7)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__615fe1b3._.js:8433:74)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28729:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28791:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28843:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 02:06:37 [ERROR]: Error processing file Gray and Green Simple Professional  CV Resume.pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`) {"code":"P2002","meta":{"modelName":"Candidate","target":["email"]},"clientVersion":"6.15.0","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.candidate.create()` invocation:\n\n\nUnique constraint failed on the fields: (`email`)\n    at ei.handleRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__0763caab._.js:7342:19)\n    at ei.handleAndLogRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__0763caab._.js:7305:18)\n    at ei.request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__0763caab._.js:7286:18)\n    at async a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__0763caab._.js:7953:25)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8614:35)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 08:30:27 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8557:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 09:41:57 [ERROR]: Error processing file Gray and Green Simple Professional  CV Resume.pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+{
+  data: {
+    full_name: "Lorna Alvarado",
+    email: "hello@reallygreatsite.com",
+    birthdate: new Date("Invalid Date"),
+               ~~~~~~~~~~~~~~~~~~~~~~~~
+    gender: "N/A",
+    experience: 5,
+    skills: [
+      "Project Management",
+      "Public Relations",
+      "Teamwork",
+      "Time Management",
+      "Leadership",
+      "Effective Communication",
+      "Critical Thinking"
+    ],
+    address: "123 Anywhere St., Any City",
+    fit_score: 10,
+    strengths: [
+      "Strong project management and leadership skills",
+      "Experience in developing marketing strategies"
+    ],
+    weaknesses: [
+      "No experience with JavaScript, TypeScript, React, or Vue.js",
+      "Lacks familiarity with REST APIs and GraphQL",
+      "No understanding of responsive design mentioned"
+    ]
+  }
+}
+
+Invalid value for argument `birthdate`: Provided Date object is invalid. Expected Date. {"name":"PrismaClientValidationError","clientVersion":"6.15.0","stack":"PrismaClientValidationError: \nInvalid `prisma.candidate.create()` invocation:\n\n{\n  data: {\n    full_name: \"Lorna Alvarado\",\n    email: \"hello@reallygreatsite.com\",\n    birthdate: new Date(\"Invalid Date\"),\n               ~~~~~~~~~~~~~~~~~~~~~~~~\n    gender: \"N/A\",\n    experience: 5,\n    skills: [\n      \"Project Management\",\n      \"Public Relations\",\n      \"Teamwork\",\n      \"Time Management\",\n      \"Leadership\",\n      \"Effective Communication\",\n      \"Critical Thinking\"\n    ],\n    address: \"123 Anywhere St., Any City\",\n    fit_score: 10,\n    strengths: [\n      \"Strong project management and leadership skills\",\n      \"Experience in developing marketing strategies\"\n    ],\n    weaknesses: [\n      \"No experience with JavaScript, TypeScript, React, or Vue.js\",\n      \"Lacks familiarity with REST APIs and GraphQL\",\n      \"No understanding of responsive design mentioned\"\n    ]\n  }\n}\n\nInvalid value for argument `birthdate`: Provided Date object is invalid. Expected Date.\n    at _n (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4142:11)\n    at e.throwValidationError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4551:9)\n    at Ia (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4432:11)\n    at Da (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4497:41)\n    at Ia (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4477:38)\n    at Da (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4497:41)\n    at bt (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4342:20)\n    at Mn (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4336:16)\n    at D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7970:66\n    at Object.runInChildSpan (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7073:16)\n    at Co.runInChildSpan (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7089:46)\n    at r._executeRequest (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7970:44)\n    at il (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:5452:43)\n    at a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7953:31)\n    at D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7963:138\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7963:118\n    at Object.runInChildSpan (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7073:16)\n    at Co.runInChildSpan (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7089:46)\n    at r._request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7963:40)\n    at e._createPrismaPromise.action (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:5205:34)\n    at o (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7034:69)\n    at Proxy.then (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7044:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+2025-08-31 09:46:04 [ERROR]: Error processing file Gray and Green Simple Professional  CV Resume (2).pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`) {"code":"P2002","meta":{"modelName":"Candidate","target":["email"]},"clientVersion":"6.15.0","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.candidate.create()` invocation:\n\n\nUnique constraint failed on the fields: (`email`)\n    at ei.handleRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7342:19)\n    at ei.handleAndLogRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7305:18)\n    at ei.request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7286:18)\n    at async a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7953:25)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8613:35)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 15:58:54 [ERROR]: Unhandled error in /cv/process No number after minus sign in JSON at position 1 (line 1 column 2) {"stack":"SyntaxError: No number after minus sign in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parseJSONFromBytes (node:internal/deps/undici/undici:5489:19)\n    at successSteps (node:internal/deps/undici/undici:5470:27)\n    at fullyReadBody (node:internal/deps/undici/undici:4381:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async consumeBody (node:internal/deps/undici/undici:5479:7)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__615fe1b3._.js:8432:48)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28729:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28791:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28843:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 16:49:43 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8662:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:50:05 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8662:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:50:52 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8662:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:51:49 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8662:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:54:03 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8556:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:54:05 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8556:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:58:44 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8556:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 17:06:10 [ERROR]: Unhandled error during CV upload Content-Type was not one of "multipart/form-data" or "application/x-www-form-urlencoded". {"stack":"TypeError: Content-Type was not one of \"multipart/form-data\" or \"application/x-www-form-urlencoded\".\n    at node:internal/deps/undici/undici:5442:19\n    at successSteps (node:internal/deps/undici/undici:5470:27)\n    at fullyReadBody (node:internal/deps/undici/undici:4381:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async consumeBody (node:internal/deps/undici/undici:5479:7)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8548:26)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 20:17:22 [ERROR]: Failed to save candidate for NguyenThiHongVi_CV_VN_BE.pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`) {"code":"P2002","meta":{"modelName":"Candidate","target":["email"]},"clientVersion":"6.15.0","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.candidate.create()` invocation:\n\n\nUnique constraint failed on the fields: (`email`)\n    at ei.handleRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7342:19)\n    at ei.handleAndLogRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7305:18)\n    at ei.request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7286:18)\n    at async a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7953:25)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8742:35)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 20:18:23 [ERROR]: Failed to save candidate for NguyenThiHongVi_CV_EN_BE.pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`) {"code":"P2002","meta":{"modelName":"Candidate","target":["email"]},"clientVersion":"6.15.0","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.candidate.create()` invocation:\n\n\nUnique constraint failed on the fields: (`email`)\n    at ei.handleRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7342:19)\n    at ei.handleAndLogRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7305:18)\n    at ei.request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7286:18)\n    at async a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7953:25)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8742:35)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}

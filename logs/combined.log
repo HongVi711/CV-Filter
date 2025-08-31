@@ -1,0 +1,601 @@
+2025-08-30 16:28:01 [INFO]: Received upload request {"jobId":"861da0e1-d8cf-4b44-94fd-ea248e07e8a5","file_count":3}
+2025-08-30 16:28:01 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (1).pdf 
+2025-08-30 16:28:01 [INFO]: Generated hash: 2b41516ea7b9015ae207ff0943b0c62240218780a692d237ca33cea1156afcdd 
+2025-08-30 16:28:03 [INFO]: Uploaded to OpenAI: file-67V8xWbqBoCtxQsRsUkJQs 
+2025-08-30 16:28:15 [INFO]: Processed and deleted OpenAI file: file-67V8xWbqBoCtxQsRsUkJQs 
+2025-08-30 16:28:15 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume (1).pdf {"candidate_id":"bba180c1-565d-4f7f-8119-23decb447acc"}
+2025-08-30 16:28:15 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (2).pdf 
+2025-08-30 16:28:15 [INFO]: Generated hash: 53bd144caea12c6f8402018e1ec585555c9be9fa60b37748dc0e371dfb716c34 
+2025-08-30 16:28:17 [INFO]: Uploaded to OpenAI: file-8RW7GfaTAMCD1ndwybvQMo 
+2025-08-30 16:28:26 [INFO]: Processed and deleted OpenAI file: file-8RW7GfaTAMCD1ndwybvQMo 
+2025-08-30 16:28:26 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume (2).pdf {"candidate_id":"b4c481d8-2413-4c84-bf6f-77fb42dff9b0"}
+2025-08-30 16:28:26 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-08-30 16:28:26 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-08-30 16:28:27 [INFO]: Uploaded to OpenAI: file-PNoC88CJ2JEK8qGn9dpUFE 
+2025-08-30 16:29:26 [INFO]: Processed and deleted OpenAI file: file-PNoC88CJ2JEK8qGn9dpUFE 
+2025-08-30 16:29:26 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume (3).pdf {"candidate_id":"fd10ffd7-7e45-469b-a62d-b5e9349cc449"}
+2025-08-30 16:29:26 [INFO]: Upload completed {"new_cvs":3,"duplicates":0,"errors":0}
+2025-08-30 16:31:21 [INFO]: Received upload request {"jobId":"861da0e1-d8cf-4b44-94fd-ea248e07e8a5","file_count":1}
+2025-08-30 16:31:21 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (1).pdf 
+2025-08-30 16:31:21 [INFO]: Generated hash: 2b41516ea7b9015ae207ff0943b0c62240218780a692d237ca33cea1156afcdd 
+2025-08-30 16:31:21 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (1).pdf","hash":"2b41516ea7b9015ae207ff0943b0c62240218780a692d237ca33cea1156afcdd"}
+2025-08-30 16:31:21 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 02:04:54 [ERROR]: Unhandled error during CV processing No number after minus sign in JSON at position 1 (line 1 column 2) {"stack":"SyntaxError: No number after minus sign in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parseJSONFromBytes (node:internal/deps/undici/undici:5489:19)\n    at successSteps (node:internal/deps/undici/undici:5470:27)\n    at fullyReadBody (node:internal/deps/undici/undici:4381:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async consumeBody (node:internal/deps/undici/undici:5479:7)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__615fe1b3._.js:8433:74)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28729:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28791:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28843:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 02:06:23 [INFO]: Received upload request {"jobId":"861da0e1-d8cf-4b44-94fd-ea248e07e8a5","file_count":1}
+2025-08-31 02:06:23 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume.pdf 
+2025-08-31 02:06:23 [INFO]: Generated hash: 19c617cfcab5087b60ff3cf692698dcb9754b6b7b340cc4b83e5c18e7a82e784 
+2025-08-31 02:06:26 [INFO]: Uploaded to OpenAI: file-3iRqQ5At2foc9u7MQ7xHw7 
+2025-08-31 02:06:37 [INFO]: Processed and deleted OpenAI file: file-3iRqQ5At2foc9u7MQ7xHw7 
+2025-08-31 02:06:37 [ERROR]: Error processing file Gray and Green Simple Professional  CV Resume.pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`) {"code":"P2002","meta":{"modelName":"Candidate","target":["email"]},"clientVersion":"6.15.0","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.candidate.create()` invocation:\n\n\nUnique constraint failed on the fields: (`email`)\n    at ei.handleRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__0763caab._.js:7342:19)\n    at ei.handleAndLogRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__0763caab._.js:7305:18)\n    at ei.request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__0763caab._.js:7286:18)\n    at async a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__0763caab._.js:7953:25)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8614:35)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 02:06:37 [INFO]: Upload completed {"new_cvs":0,"duplicates":0,"errors":1}
+2025-08-31 08:30:27 [INFO]: Received upload request {"jobId":"6c533962-5b78-4529-92d7-93678eec4e0f","file_count":0}
+2025-08-31 08:30:27 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8557:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 08:30:27 [WARN]: Handled AppError Missing job_id or files {"code":"UPLOAD_VALIDATION"}
+2025-08-31 08:45:12 [INFO]: Received upload request {"jobId":"6c533962-5b78-4529-92d7-93678eec4e0f","file_count":1}
+2025-08-31 08:45:13 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 08:45:13 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 08:45:15 [INFO]: Uploaded to OpenAI: file-A7xiBMjk51ypumxSCPPyXq 
+2025-08-31 08:45:31 [INFO]: Processed and deleted OpenAI file: file-A7xiBMjk51ypumxSCPPyXq 
+2025-08-31 08:45:31 [INFO]: Candidate saved for file: NguyenThiHongVi_BackEnd_CV.pdf {"candidate_id":"361042c1-d792-4d1e-8bcd-5f7ae39c62e0"}
+2025-08-31 08:45:31 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":0}
+2025-08-31 08:57:12 [INFO]: Received upload request {"jobId":"6c533962-5b78-4529-92d7-93678eec4e0f","file_count":1}
+2025-08-31 08:57:12 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 08:57:12 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 08:57:12 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 08:57:12 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 09:03:44 [INFO]: Received upload request {"jobId":"6c533962-5b78-4529-92d7-93678eec4e0f","file_count":1}
+2025-08-31 09:03:44 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume.pdf 
+2025-08-31 09:03:44 [INFO]: Generated hash: 19c617cfcab5087b60ff3cf692698dcb9754b6b7b340cc4b83e5c18e7a82e784 
+2025-08-31 09:03:48 [INFO]: Uploaded to OpenAI: file-KAUGmiUdAnzXpoqs6fvApa 
+2025-08-31 09:03:58 [INFO]: Processed and deleted OpenAI file: file-KAUGmiUdAnzXpoqs6fvApa 
+2025-08-31 09:03:58 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume.pdf {"candidate_id":"35af15e1-0c56-4ce0-85b9-514053f13f90"}
+2025-08-31 09:03:58 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":0}
+2025-08-31 09:41:43 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 09:41:43 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume.pdf 
+2025-08-31 09:41:43 [INFO]: Generated hash: 19c617cfcab5087b60ff3cf692698dcb9754b6b7b340cc4b83e5c18e7a82e784 
+2025-08-31 09:41:46 [INFO]: Uploaded to OpenAI: file-7Au25CLxbrBhhH1AM5KiMg 
+2025-08-31 09:41:57 [INFO]: Processed and deleted OpenAI file: file-7Au25CLxbrBhhH1AM5KiMg 
+2025-08-31 09:41:57 [ERROR]: Error processing file Gray and Green Simple Professional  CV Resume.pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+{
+  data: {
+    full_name: "Lorna Alvarado",
+    email: "hello@reallygreatsite.com",
+    birthdate: new Date("Invalid Date"),
+               ~~~~~~~~~~~~~~~~~~~~~~~~
+    gender: "N/A",
+    experience: 5,
+    skills: [
+      "Project Management",
+      "Public Relations",
+      "Teamwork",
+      "Time Management",
+      "Leadership",
+      "Effective Communication",
+      "Critical Thinking"
+    ],
+    address: "123 Anywhere St., Any City",
+    fit_score: 10,
+    strengths: [
+      "Strong project management and leadership skills",
+      "Experience in developing marketing strategies"
+    ],
+    weaknesses: [
+      "No experience with JavaScript, TypeScript, React, or Vue.js",
+      "Lacks familiarity with REST APIs and GraphQL",
+      "No understanding of responsive design mentioned"
+    ]
+  }
+}
+
+Invalid value for argument `birthdate`: Provided Date object is invalid. Expected Date. {"name":"PrismaClientValidationError","clientVersion":"6.15.0","stack":"PrismaClientValidationError: \nInvalid `prisma.candidate.create()` invocation:\n\n{\n  data: {\n    full_name: \"Lorna Alvarado\",\n    email: \"hello@reallygreatsite.com\",\n    birthdate: new Date(\"Invalid Date\"),\n               ~~~~~~~~~~~~~~~~~~~~~~~~\n    gender: \"N/A\",\n    experience: 5,\n    skills: [\n      \"Project Management\",\n      \"Public Relations\",\n      \"Teamwork\",\n      \"Time Management\",\n      \"Leadership\",\n      \"Effective Communication\",\n      \"Critical Thinking\"\n    ],\n    address: \"123 Anywhere St., Any City\",\n    fit_score: 10,\n    strengths: [\n      \"Strong project management and leadership skills\",\n      \"Experience in developing marketing strategies\"\n    ],\n    weaknesses: [\n      \"No experience with JavaScript, TypeScript, React, or Vue.js\",\n      \"Lacks familiarity with REST APIs and GraphQL\",\n      \"No understanding of responsive design mentioned\"\n    ]\n  }\n}\n\nInvalid value for argument `birthdate`: Provided Date object is invalid. Expected Date.\n    at _n (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4142:11)\n    at e.throwValidationError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4551:9)\n    at Ia (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4432:11)\n    at Da (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4497:41)\n    at Ia (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4477:38)\n    at Da (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4497:41)\n    at bt (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4342:20)\n    at Mn (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:4336:16)\n    at D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7970:66\n    at Object.runInChildSpan (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7073:16)\n    at Co.runInChildSpan (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7089:46)\n    at r._executeRequest (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7970:44)\n    at il (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:5452:43)\n    at a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7953:31)\n    at D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7963:138\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7963:118\n    at Object.runInChildSpan (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7073:16)\n    at Co.runInChildSpan (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7089:46)\n    at r._request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7963:40)\n    at e._createPrismaPromise.action (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:5205:34)\n    at o (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7034:69)\n    at Proxy.then (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7044:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+2025-08-31 09:41:57 [INFO]: Upload completed {"new_cvs":0,"duplicates":0,"errors":1}
+2025-08-31 09:43:47 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 09:43:47 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume.pdf 
+2025-08-31 09:43:47 [INFO]: Generated hash: 19c617cfcab5087b60ff3cf692698dcb9754b6b7b340cc4b83e5c18e7a82e784 
+2025-08-31 09:43:50 [INFO]: Uploaded to OpenAI: file-TC8De2pRL3QiXUb9Hy72PP 
+2025-08-31 09:43:59 [INFO]: Processed and deleted OpenAI file: file-TC8De2pRL3QiXUb9Hy72PP 
+2025-08-31 09:43:59 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume.pdf {"candidate_id":"2b5b37bb-d156-4a57-902a-06817cd3ed91"}
+2025-08-31 09:43:59 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":0}
+2025-08-31 09:45:52 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":2}
+2025-08-31 09:45:52 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (2).pdf 
+2025-08-31 09:45:52 [INFO]: Generated hash: 53bd144caea12c6f8402018e1ec585555c9be9fa60b37748dc0e371dfb716c34 
+2025-08-31 09:45:55 [INFO]: Uploaded to OpenAI: file-AB8MJpiG11Gf8b46uDzVbr 
+2025-08-31 09:46:04 [INFO]: Processed and deleted OpenAI file: file-AB8MJpiG11Gf8b46uDzVbr 
+2025-08-31 09:46:04 [ERROR]: Error processing file Gray and Green Simple Professional  CV Resume (2).pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`) {"code":"P2002","meta":{"modelName":"Candidate","target":["email"]},"clientVersion":"6.15.0","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.candidate.create()` invocation:\n\n\nUnique constraint failed on the fields: (`email`)\n    at ei.handleRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7342:19)\n    at ei.handleAndLogRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7305:18)\n    at ei.request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7286:18)\n    at async a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__2d23e629._.js:7953:25)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8613:35)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 09:46:04 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-08-31 09:46:04 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-08-31 09:46:06 [INFO]: Uploaded to OpenAI: file-HMHDgwhbVYxN8AURQCs6JJ 
+2025-08-31 09:46:16 [INFO]: Processed and deleted OpenAI file: file-HMHDgwhbVYxN8AURQCs6JJ 
+2025-08-31 09:46:16 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume (3).pdf {"candidate_id":"754034ff-d78a-4be4-941a-06604b7b4f9e"}
+2025-08-31 09:46:16 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":1}
+2025-08-31 10:38:43 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":2}
+2025-08-31 10:38:43 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (2).pdf 
+2025-08-31 10:38:43 [INFO]: Generated hash: 53bd144caea12c6f8402018e1ec585555c9be9fa60b37748dc0e371dfb716c34 
+2025-08-31 10:38:46 [INFO]: Uploaded to OpenAI: file-7DQdv2xGbS7Xyvr1yCT3F8 
+2025-08-31 10:38:51 [INFO]: Parsed and deleted OpenAI file: file-7DQdv2xGbS7Xyvr1yCT3F8 
+2025-08-31 10:38:51 [WARN]: Duplicate candidate by email {"file":"Gray and Green Simple Professional  CV Resume (2).pdf","email":"hello@reallygreatsite.com"}
+2025-08-31 10:38:51 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (1).pdf 
+2025-08-31 10:38:51 [INFO]: Generated hash: 2b41516ea7b9015ae207ff0943b0c62240218780a692d237ca33cea1156afcdd 
+2025-08-31 10:38:53 [INFO]: Uploaded to OpenAI: file-EYjmJntCc8DCDF2NwkZ8j6 
+2025-08-31 10:38:58 [INFO]: Parsed and deleted OpenAI file: file-EYjmJntCc8DCDF2NwkZ8j6 
+2025-08-31 10:39:09 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume (1).pdf {"candidate_id":"c236353e-0d18-4212-87a6-080465e6c53d"}
+2025-08-31 10:39:09 [INFO]: Upload completed {"new_cvs":1,"duplicates":1,"errors":0}
+2025-08-31 11:06:15 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 11:06:15 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (2).pdf 
+2025-08-31 11:06:15 [INFO]: Generated hash: 53bd144caea12c6f8402018e1ec585555c9be9fa60b37748dc0e371dfb716c34 
+2025-08-31 11:06:17 [INFO]: Uploaded to OpenAI: file-4hLMcteziJQNDnkCxr4Gjk 
+2025-08-31 11:06:24 [INFO]: Parsed and deleted OpenAI file: file-4hLMcteziJQNDnkCxr4Gjk 
+2025-08-31 11:06:24 [WARN]: Duplicate candidate by email {"file":"Gray and Green Simple Professional  CV Resume (2).pdf","email":"hello@reallygreatsite.com"}
+2025-08-31 11:06:24 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 13:31:40 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 13:31:40 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 13:31:40 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 13:31:43 [INFO]: Uploaded to OpenAI: file-DE5LsNEB5u1A1s3opV8q4Z 
+2025-08-31 13:31:49 [INFO]: Parsed and deleted OpenAI file: file-DE5LsNEB5u1A1s3opV8q4Z 
+2025-08-31 13:31:55 [WARN]: Duplicate candidate by email {"file":"NguyenThiHongVi_BackEnd_CV.pdf","email":"nguyenhongvi71103@gmail.com"}
+2025-08-31 13:31:55 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 13:33:47 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 13:33:47 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 13:33:47 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 13:33:55 [INFO]: Uploaded to OpenAI: file-1T8Kh4bbSvTNh3XsMo2ToX 
+2025-08-31 13:34:02 [INFO]: Parsed and deleted OpenAI file: file-1T8Kh4bbSvTNh3XsMo2ToX 
+2025-08-31 13:34:09 [WARN]: Duplicate candidate by email {"file":"NguyenThiHongVi_BackEnd_CV.pdf","email":"nguyenhongvi71103@gmail.com"}
+2025-08-31 13:34:09 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 13:38:37 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 13:38:37 [INFO]: Processing file: NguyenThiHongVi_CV_VN_BE.pdf 
+2025-08-31 13:38:37 [INFO]: Generated hash: c601a11bb02421533c0d867080eb38cd06fba37180b14413537f770f062faf42 
+2025-08-31 13:38:39 [INFO]: Uploaded to OpenAI: file-VU1izWahVZ6TfCcjmFXHMT 
+2025-08-31 13:38:45 [INFO]: Parsed and deleted OpenAI file: file-VU1izWahVZ6TfCcjmFXHMT 
+2025-08-31 13:38:52 [INFO]: Candidate saved for file: NguyenThiHongVi_CV_VN_BE.pdf {"candidate_id":"d89511be-ee12-49e3-82aa-d5739cda3f35"}
+2025-08-31 13:38:52 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":0}
+2025-08-31 13:39:11 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 13:39:11 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 13:39:11 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 13:39:14 [INFO]: Uploaded to OpenAI: file-1UrxYSpVJS2b1DrFiQac74 
+2025-08-31 13:39:20 [INFO]: Parsed and deleted OpenAI file: file-1UrxYSpVJS2b1DrFiQac74 
+2025-08-31 13:39:27 [WARN]: Duplicate candidate by email {"file":"NguyenThiHongVi_BackEnd_CV.pdf","email":"nguyenhongvi71103@gmail.com"}
+2025-08-31 13:39:27 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 13:56:03 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 13:56:03 [INFO]: Processing file: NguyenThiHongVi_CV_VN_BE.pdf 
+2025-08-31 13:56:03 [INFO]: Generated hash: c601a11bb02421533c0d867080eb38cd06fba37180b14413537f770f062faf42 
+2025-08-31 13:56:05 [INFO]: Uploaded to OpenAI: file-2VN3cEi5PBZ7WyiturZqZJ 
+2025-08-31 13:56:10 [INFO]: Parsed and deleted OpenAI file: file-2VN3cEi5PBZ7WyiturZqZJ 
+2025-08-31 13:56:15 [INFO]: Candidate saved for file: NguyenThiHongVi_CV_VN_BE.pdf {"candidate_id":"82bff54a-490b-4dcc-9d95-fa6a33f2271b"}
+2025-08-31 13:56:15 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":0}
+2025-08-31 13:56:32 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 13:56:32 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 13:56:32 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 13:56:34 [INFO]: Uploaded to OpenAI: file-BQLy75hcnZua8FTEDFYWHW 
+2025-08-31 13:56:41 [INFO]: Parsed and deleted OpenAI file: file-BQLy75hcnZua8FTEDFYWHW 
+2025-08-31 13:56:47 [WARN]: Duplicate candidate by email {"file":"NguyenThiHongVi_BackEnd_CV.pdf","email":"nguyenhongvi71103@gmail.com"}
+2025-08-31 13:56:47 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 15:37:16 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":2}
+2025-08-31 15:37:16 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 15:37:16 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 15:37:18 [INFO]: Uploaded to OpenAI: file-4odVYZZySqvLtEC41DFhLC 
+2025-08-31 15:37:25 [INFO]: Parsed and deleted OpenAI file: file-4odVYZZySqvLtEC41DFhLC 
+2025-08-31 15:37:31 [INFO]: Candidate saved for file: NguyenThiHongVi_BackEnd_CV.pdf {"candidate_id":"42e715f5-c5a9-4f1b-84ef-12022fd1a759"}
+2025-08-31 15:37:31 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-08-31 15:37:31 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-08-31 15:37:31 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","hash":"e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7"}
+2025-08-31 15:37:31 [INFO]: Upload completed {"new_cvs":1,"duplicates":1,"errors":0}
+2025-08-31 15:44:56 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 15:44:56 [INFO]: Processing file: NguyenThiHongVi_CV_VN_BE.pdf 
+2025-08-31 15:44:56 [INFO]: Generated hash: c601a11bb02421533c0d867080eb38cd06fba37180b14413537f770f062faf42 
+2025-08-31 15:44:58 [INFO]: Uploaded to OpenAI: file-6RJqu8bQeTLjneitDAomKf 
+2025-08-31 15:45:05 [INFO]: Parsed and deleted OpenAI file: file-6RJqu8bQeTLjneitDAomKf 
+2025-08-31 15:45:10 [WARN]: Duplicate candidate by email {"file":"NguyenThiHongVi_CV_VN_BE.pdf","email":"nguyenhongvi71103@gmail.com"}
+2025-08-31 15:45:10 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 15:57:11 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 15:57:11 [INFO]: Processing file: NguyenThiHongVi_CV_VN_BE.pdf 
+2025-08-31 15:57:11 [INFO]: Generated hash: c601a11bb02421533c0d867080eb38cd06fba37180b14413537f770f062faf42 
+2025-08-31 15:57:13 [INFO]: Uploaded to OpenAI: file-XFaGGs826JUBLmPKCWPk2g 
+2025-08-31 15:57:24 [INFO]: Parsed and deleted OpenAI file: file-XFaGGs826JUBLmPKCWPk2g 
+2025-08-31 15:57:31 [WARN]: Duplicate candidate by email {"file":"NguyenThiHongVi_CV_VN_BE.pdf","email":"nguyenhongvi71103@gmail.com"}
+2025-08-31 15:57:31 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 15:58:07 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 15:58:07 [INFO]: Processing file: NguyenThiHongVi_CV_VN_BE.pdf 
+2025-08-31 15:58:07 [INFO]: Generated hash: c601a11bb02421533c0d867080eb38cd06fba37180b14413537f770f062faf42 
+2025-08-31 15:58:10 [INFO]: Uploaded to OpenAI: file-2WVmtrR1o1Nmff8Ch2rYJa 
+2025-08-31 15:58:19 [INFO]: Parsed and deleted OpenAI file: file-2WVmtrR1o1Nmff8Ch2rYJa 
+2025-08-31 15:58:26 [WARN]: Duplicate candidate by email {"file":"NguyenThiHongVi_CV_VN_BE.pdf","email":"nguyenhongvi71103@gmail.com"}
+2025-08-31 15:58:26 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 15:58:54 [ERROR]: Unhandled error in /cv/process No number after minus sign in JSON at position 1 (line 1 column 2) {"stack":"SyntaxError: No number after minus sign in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parseJSONFromBytes (node:internal/deps/undici/undici:5489:19)\n    at successSteps (node:internal/deps/undici/undici:5470:27)\n    at fullyReadBody (node:internal/deps/undici/undici:4381:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async consumeBody (node:internal/deps/undici/undici:5479:7)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__615fe1b3._.js:8432:48)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28729:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28791:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_b4fd6e9e._.js:28843:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 16:49:43 [INFO]: Received upload request {"jobId":"861da0e1-d8cf-4b44-94fd-ea248e07e8a5","file_count":0}
+2025-08-31 16:49:43 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8662:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:49:43 [WARN]: Handled AppError Missing job_id or files {"code":"UPLOAD_VALIDATION"}
+2025-08-31 16:50:05 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":0}
+2025-08-31 16:50:05 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8662:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:50:05 [WARN]: Handled AppError Missing job_id or files {"code":"UPLOAD_VALIDATION"}
+2025-08-31 16:50:52 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":0}
+2025-08-31 16:50:52 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8662:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:50:52 [WARN]: Handled AppError Missing job_id or files {"code":"UPLOAD_VALIDATION"}
+2025-08-31 16:51:49 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":0}
+2025-08-31 16:51:49 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8662:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:51:49 [WARN]: Handled AppError Missing job_id or files {"code":"UPLOAD_VALIDATION"}
+2025-08-31 16:54:03 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":0}
+2025-08-31 16:54:03 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8556:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:54:03 [WARN]: Handled AppError Missing job_id or files {"code":"UPLOAD_VALIDATION"}
+2025-08-31 16:54:05 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":0}
+2025-08-31 16:54:05 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8556:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:54:05 [WARN]: Handled AppError Missing job_id or files {"code":"UPLOAD_VALIDATION"}
+2025-08-31 16:56:42 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 16:56:42 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 16:56:42 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 16:56:42 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 16:56:42 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 16:58:44 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":0}
+2025-08-31 16:58:44 [ERROR]: Error: Missing job_id or files
+    at POST (D:\VNF\cv-filter\.next\server\chunks\[root-of-the-server]__54248da0._.js:8556:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:38696)
+    at async AppRouteRouteModule.handle (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45978)
+    at async responseGenerator (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14164:38)
+    at async AppRouteRouteModule.handleResponse (D:\VNF\cv-filter\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187643)
+    at async handleResponse (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14226:32)
+    at async handler (D:\VNF\cv-filter\.next\server\chunks\node_modules_next_d9680673._.js:14278:13)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1422:9)
+    at async DevServer.renderPageComponent (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1474:24)
+    at async DevServer.renderToResponseImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1514:32)
+    at async DevServer.pipeImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:1025:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\VNF\cv-filter\node_modules\next\dist\server\next-server.js:393:17)
+    at async DevServer.handleRequestImpl (D:\VNF\cv-filter\node_modules\next\dist\server\base-server.js:916:17)
+    at async D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:399:20
+    at async Span.traceAsyncFn (D:\VNF\cv-filter\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\dev\next-dev-server.js:395:24)
+    at async invokeRender (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (D:\VNF\cv-filter\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (D:\VNF\cv-filter\node_modules\next\dist\server\lib\start-server.js:226:13) 
+2025-08-31 16:58:44 [WARN]: Handled AppError Missing job_id or files {"code":"UPLOAD_VALIDATION"}
+2025-08-31 17:06:10 [ERROR]: Unhandled error during CV upload Content-Type was not one of "multipart/form-data" or "application/x-www-form-urlencoded". {"stack":"TypeError: Content-Type was not one of \"multipart/form-data\" or \"application/x-www-form-urlencoded\".\n    at node:internal/deps/undici/undici:5442:19\n    at successSteps (node:internal/deps/undici/undici:5470:27)\n    at fullyReadBody (node:internal/deps/undici/undici:4381:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async consumeBody (node:internal/deps/undici/undici:5479:7)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8548:26)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 17:07:13 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 17:07:13 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume.pdf 
+2025-08-31 17:07:13 [INFO]: Generated hash: 19c617cfcab5087b60ff3cf692698dcb9754b6b7b340cc4b83e5c18e7a82e784 
+2025-08-31 17:07:13 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume.pdf","hash":"19c617cfcab5087b60ff3cf692698dcb9754b6b7b340cc4b83e5c18e7a82e784"}
+2025-08-31 17:07:13 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 17:44:59 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-08-31 17:44:59 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 17:44:59 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 17:44:59 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 17:44:59 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 18:43:52 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 18:43:52 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 18:43:52 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 18:44:08 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 18:44:08 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 20:17:08 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":1}
+2025-08-31 20:17:08 [INFO]: Processing file: NguyenThiHongVi_CV_VN_BE.pdf 
+2025-08-31 20:17:08 [INFO]: Generated hash: c601a11bb02421533c0d867080eb38cd06fba37180b14413537f770f062faf42 
+2025-08-31 20:17:22 [ERROR]: Failed to save candidate for NguyenThiHongVi_CV_VN_BE.pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`) {"code":"P2002","meta":{"modelName":"Candidate","target":["email"]},"clientVersion":"6.15.0","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.candidate.create()` invocation:\n\n\nUnique constraint failed on the fields: (`email`)\n    at ei.handleRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7342:19)\n    at ei.handleAndLogRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7305:18)\n    at ei.request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7286:18)\n    at async a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7953:25)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8742:35)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 20:17:22 [INFO]: Upload completed {"new_cvs":0,"duplicates":0,"errors":1}
+2025-08-31 20:18:11 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":1}
+2025-08-31 20:18:11 [INFO]: Processing file: NguyenThiHongVi_CV_EN_BE.pdf 
+2025-08-31 20:18:11 [INFO]: Generated hash: b943e3085cd4abb671f97133ccc64f04bd437beb0e64a15e4f4bd290359209b2 
+2025-08-31 20:18:23 [ERROR]: Failed to save candidate for NguyenThiHongVi_CV_EN_BE.pdf 
+Invalid `prisma.candidate.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`) {"code":"P2002","meta":{"modelName":"Candidate","target":["email"]},"clientVersion":"6.15.0","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.candidate.create()` invocation:\n\n\nUnique constraint failed on the fields: (`email`)\n    at ei.handleRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7342:19)\n    at ei.handleAndLogRequestError (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7305:18)\n    at ei.request (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7286:18)\n    at async a (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:7953:25)\n    at async POST (D:\\VNF\\cv-filter\\.next\\server\\chunks\\[root-of-the-server]__54248da0._.js:8742:35)\n    at async AppRouteRouteModule.do (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:38696)\n    at async AppRouteRouteModule.handle (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:5:45978)\n    at async responseGenerator (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14164:38)\n    at async AppRouteRouteModule.handleResponse (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:1:187643)\n    at async handleResponse (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14226:32)\n    at async handler (D:\\VNF\\cv-filter\\.next\\server\\chunks\\node_modules_next_d9680673._.js:14278:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1422:9)\n    at async DevServer.renderPageComponent (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1474:24)\n    at async DevServer.renderToResponseImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1514:32)\n    at async DevServer.pipeImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:1025:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\next-server.js:393:17)\n    at async DevServer.handleRequestImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\base-server.js:916:17)\n    at async D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:399:20\n    at async Span.traceAsyncFn (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:395:24)\n    at async invokeRender (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:437:24)\n    at async requestHandlerImpl (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\router-server.js:485:13)\n    at async Server.requestListener (D:\\VNF\\cv-filter\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"}
+2025-08-31 20:18:23 [INFO]: Upload completed {"new_cvs":0,"duplicates":0,"errors":1}
+2025-08-31 20:19:58 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":1}
+2025-08-31 20:19:58 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 20:19:58 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 20:20:12 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 20:20:12 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 20:23:10 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 20:23:10 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 20:23:10 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 20:23:21 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 20:23:21 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 20:36:49 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-08-31 20:36:49 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 20:36:49 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 20:37:00 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 20:37:00 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 20:55:38 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":1}
+2025-08-31 20:55:38 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 20:55:38 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 20:55:51 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 20:55:51 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-08-31 22:12:38 [INFO]: Received upload request {"jobId":"3133b240-66d0-4e9f-ba18-4fbdaec70175","file_count":2}
+2025-08-31 22:12:38 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-08-31 22:12:38 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-08-31 22:12:52 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-08-31 22:12:52 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-08-31 22:12:52 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-08-31 22:13:05 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume (3).pdf {"candidate_id":"86d8e668-aff5-489a-9292-80e1c848c72e"}
+2025-08-31 22:13:05 [INFO]: Upload completed {"new_cvs":1,"duplicates":1,"errors":0}
+2025-09-01 00:48:34 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":1}
+2025-09-01 00:48:34 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume.pdf 
+2025-09-01 00:48:34 [INFO]: Generated hash: 19c617cfcab5087b60ff3cf692698dcb9754b6b7b340cc4b83e5c18e7a82e784 
+2025-09-01 00:48:54 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume.pdf","hash":"19c617cfcab5087b60ff3cf692698dcb9754b6b7b340cc4b83e5c18e7a82e784"}
+2025-09-01 00:48:54 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 00:52:01 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-09-01 00:52:01 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (1).pdf 
+2025-09-01 00:52:01 [INFO]: Generated hash: 2b41516ea7b9015ae207ff0943b0c62240218780a692d237ca33cea1156afcdd 
+2025-09-01 00:54:10 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume (1).pdf {"candidate_id":"a1eeae5f-d832-4e4b-bb55-e4c257e1277c"}
+2025-09-01 00:54:10 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":0}
+2025-09-01 01:07:45 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-09-01 01:07:45 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:07:45 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:07:59 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:07:59 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 01:15:36 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":2}
+2025-09-01 01:15:37 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:15:37 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:16:17 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:16:17 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 01:16:17 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 01:16:28 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","hash":"e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7"}
+2025-09-01 01:16:28 [INFO]: Upload completed {"new_cvs":0,"duplicates":2,"errors":0}
+2025-09-01 01:20:35 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":2}
+2025-09-01 01:20:35 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 01:20:35 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 01:20:47 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","hash":"e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7"}
+2025-09-01 01:20:47 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:20:47 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:21:06 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:21:06 [INFO]: Upload completed {"new_cvs":0,"duplicates":2,"errors":0}
+2025-09-01 01:26:48 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":2}
+2025-09-01 01:26:48 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:26:48 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:27:01 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:27:01 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 01:27:01 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 01:27:12 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","hash":"e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7"}
+2025-09-01 01:27:12 [INFO]: Upload completed {"new_cvs":0,"duplicates":2,"errors":0}
+2025-09-01 01:31:17 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":2}
+2025-09-01 01:31:17 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 01:31:17 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 01:31:29 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","hash":"e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7"}
+2025-09-01 01:31:29 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:31:29 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:31:45 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:31:45 [INFO]: Upload completed {"new_cvs":0,"duplicates":2,"errors":0}
+2025-09-01 01:38:00 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":2}
+2025-09-01 01:38:00 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:38:00 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:38:14 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:38:14 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 01:38:14 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 01:40:39 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","hash":"e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7"}
+2025-09-01 01:40:39 [INFO]: Upload completed {"new_cvs":0,"duplicates":2,"errors":0}
+2025-09-01 01:41:30 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":2}
+2025-09-01 01:41:30 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 01:41:30 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 01:41:42 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","hash":"e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7"}
+2025-09-01 01:41:42 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:41:42 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:45:36 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:45:36 [INFO]: Upload completed {"new_cvs":0,"duplicates":2,"errors":0}
+2025-09-01 01:47:25 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-09-01 01:47:25 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:47:25 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:47:38 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:47:38 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 01:48:52 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-09-01 01:48:52 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:48:52 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:49:07 [INFO]: Candidate saved for file: NguyenThiHongVi_BackEnd_CV.pdf {"candidate_id":"3da1c960-7d12-43c7-8ea7-b13561a1e461"}
+2025-09-01 01:49:07 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":0}
+2025-09-01 01:49:21 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-09-01 01:49:21 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:49:21 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:50:07 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:50:07 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 01:52:22 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":1}
+2025-09-01 01:52:22 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:52:22 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:52:36 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:52:36 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 01:55:07 [INFO]: Received upload request {"jobId":"07aaa9c3-ef76-4fdb-a737-388eef6217e0","file_count":1}
+2025-09-01 01:55:07 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:55:07 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:55:21 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:55:21 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 01:56:34 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-09-01 01:56:34 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:56:34 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:56:48 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:56:48 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 01:58:15 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-09-01 01:58:15 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:58:15 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 01:58:29 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 01:58:29 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 01:59:56 [INFO]: Received upload request {"jobId":"ce0bb209-b9b1-445f-85dd-4b927d2fabe7","file_count":1}
+2025-09-01 01:59:56 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 01:59:56 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 02:00:08 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 02:00:08 [INFO]: Upload completed {"new_cvs":0,"duplicates":1,"errors":0}
+2025-09-01 02:01:55 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":1}
+2025-09-01 02:01:55 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 02:01:55 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 02:02:06 [INFO]: Candidate saved for file: Gray and Green Simple Professional  CV Resume (3).pdf {"candidate_id":"2b46802e-da1c-4f34-be5e-8fb43684659d"}
+2025-09-01 02:02:06 [INFO]: Upload completed {"new_cvs":1,"duplicates":0,"errors":0}
+2025-09-01 02:02:26 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":2}
+2025-09-01 02:02:26 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 02:02:26 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 02:02:39 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","hash":"e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7"}
+2025-09-01 02:02:39 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 02:02:39 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 02:03:55 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_BackEnd_CV.pdf","hash":"60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4"}
+2025-09-01 02:03:55 [INFO]: Upload completed {"new_cvs":0,"duplicates":2,"errors":0}
+2025-09-01 02:17:23 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":2}
+2025-09-01 02:17:23 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (1).pdf 
+2025-09-01 02:17:23 [INFO]: Generated hash: 2b41516ea7b9015ae207ff0943b0c62240218780a692d237ca33cea1156afcdd 
+2025-09-01 02:17:39 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (1).pdf","reason":"email","existing_cv_id":"1765769f-9b1b-480e-bd6b-097375aca4f6"}
+2025-09-01 02:17:39 [INFO]: Processing file: Gray and Green Simple Professional  CV Resume (3).pdf 
+2025-09-01 02:17:39 [INFO]: Generated hash: e8ca3b5196832d052f1cffb3cebc818c0f52b774e63b1604c5f1959e815f0ef7 
+2025-09-01 02:17:51 [WARN]: Duplicate CV detected {"file":"Gray and Green Simple Professional  CV Resume (3).pdf","reason":"hash","existing_cv_id":"099810d3-e93f-449c-99ae-6702fe463249"}
+2025-09-01 02:17:51 [INFO]: Upload completed {"new_cvs":0,"duplicates":2,"errors":0}
+2025-09-01 02:34:46 [INFO]: Received upload request {"jobId":"1a24f1d1-b43b-4363-b9ce-efd062bbde4a","file_count":2}
+2025-09-01 02:34:46 [INFO]: Processing file: NguyenThiHongVi_BackEnd_CV.pdf 
+2025-09-01 02:34:46 [INFO]: Generated hash: 60a6fe6c3ad7056dd926e7bd5e25b9e7732d31fb1f8dc78b475462ca9c1a0fa4 
+2025-09-01 02:35:55 [INFO]: Candidate saved for file: NguyenThiHongVi_BackEnd_CV.pdf {"candidate_id":"47fa88f7-17b7-4e8c-9d57-8b54b2b9a464"}
+2025-09-01 02:35:55 [INFO]: Processing file: NguyenThiHongVi_CV_VN_BE.pdf 
+2025-09-01 02:35:55 [INFO]: Generated hash: c601a11bb02421533c0d867080eb38cd06fba37180b14413537f770f062faf42 
+2025-09-01 02:36:07 [WARN]: Duplicate CV detected {"file":"NguyenThiHongVi_CV_VN_BE.pdf","reason":"email","existing_cv_id":"1bdf8f53-0e1b-4351-b4b0-1924fe51975a"}
+2025-09-01 02:36:07 [INFO]: Upload completed {"new_cvs":1,"duplicates":1,"errors":0}

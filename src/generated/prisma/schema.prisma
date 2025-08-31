@@ -1,0 +1,60 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Candidate {
+  id         String    @id @default(uuid())
+  full_name  String
+  email      String
+  birthdate  DateTime?
+  gender     String?
+  experience Int? // Số năm kinh nghiệm
+  skills     String[] // Mảng kỹ năng
+  address    String?
+  fit_score  Float? // Phần trăm phù hợp (0-100)
+  strengths  String[] // Mảng điểm mạnh
+  weaknesses String[] // Mảng điểm yếu
+  created_at DateTime  @default(now())
+  updated_at DateTime  @updatedAt
+
+  cv_uploads CvUpload[] @relation("CandidateCVs")
+}
+
+model Job {
+  id           String   @id @default(uuid())
+  title        String
+  description  String
+  requirements String // Yêu cầu công việc (text để so sánh với CV)
+  created_at   DateTime @default(now())
+  updated_at   DateTime @updatedAt
+
+  cv_uploads CvUpload[]
+}
+
+model CvUpload {
+  id           String   @id @default(uuid())
+  candidate_id String // FK đến Candidate
+  job_id       String // FK đến Job
+  file_url     String // Đường dẫn file (ví dụ: /uploads/cv-uuid.pdf)
+  hash         String // SHA256 hash
+  status       String // 'processed', 'duplicate', etc.
+  created_at   DateTime @default(now())
+
+  candidate Candidate @relation("CandidateCVs", fields: [candidate_id], references: [id])
+  job       Job       @relation(fields: [job_id], references: [id])
+
+  @@index([candidate_id])
+  @@index([job_id])
+}
